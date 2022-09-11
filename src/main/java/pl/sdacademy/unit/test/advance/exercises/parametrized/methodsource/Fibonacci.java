@@ -2,6 +2,10 @@ package pl.sdacademy.unit.test.advance.exercises.parametrized.methodsource;
 
 public class Fibonacci {
 
+    public static void main(String[] args) {
+        getValueFromIndex(5);
+    }
+
     public static int getValueFromIndex(int index) {
         if (index == 0 || index == 1) {
             return index;
